@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Measure It</string>
+    <string name="measure_it">Measure It</string>
+    <string name="shrit_height">Shirt</string>
+    <string name="shoulder">Shoulder</string>
+    <string name="trouser_height">Trouser</string>
+    <string name="hand_length">Hand</string>
+    <string name="save">save</string>
+    <string name="sync">Sync</string>
+    <string name="name">Name</string>
+    <string name="ph_number">Phone Number</string>
+    <string name="view">view</string>
+    <string name="menu_search">Menu Search</string>
+    <string name="menu_add">Add</string>
+    <string name="getData">Get Data</string>
+    <string name="title_activity_flash_screen">FlashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="about">About</string>
+    <string name="name_">NAME</string>
+</resources>

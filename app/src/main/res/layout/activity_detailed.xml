@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.shaheed.mtesting.DetailedActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textName"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/name"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textShirt"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/shrit_height"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textShoulder"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/shoulder"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textTrouser"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/trouser_height"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textHand"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/hand_length"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textPhoneNumber"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/ph_number"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/fabCall"
+        android:layout_gravity="bottom|center"
+        android:src="@drawable/ic_call_black_24dp"
+        android:layout_margin="@dimen/fab_margin"
+        app:elevation="16dp"
+        app:pressedTranslationZ="12dp"
+        android:clickable="true"
+        android:focusableInTouchMode="false"
+        android:focusable="auto"
+        app:fabSize="auto"
+        android:backgroundTint="@android:color/holo_green_light"
+        app:rippleColor="@android:color/black"
+        android:background="@android:color/black"
+        tools:ignore="KeyboardInaccessibleWidget" />
+
+</LinearLayout>
