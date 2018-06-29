@@ -111,7 +111,6 @@
                 android:layout_gravity="center_horizontal"
                 android:text="@string/save"/>
             </LinearLayout>
-
         </LinearLayout>
     </LinearLayout>
 </ScrollView>
